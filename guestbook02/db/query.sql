@@ -9,3 +9,6 @@ select id, name, contents, date_format(reg_date, '%Y-%m-%d %h:%i:%s') from guest
 -- delete
 delete from guestbook where id=1 and password='1234';
 select * from guestbook;
+
+desc user;
+select * from user;

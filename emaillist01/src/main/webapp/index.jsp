@@ -1,7 +1,7 @@
-﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@page import="emaillist.dao.EmaillistDao"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ page import="java.util.List"%>
-<%@ page import="emaillist.dao.EmaillistDao"%>
 <%@ page import="emaillist.vo.EmaillistVo"%>
 <%
 EmaillistDao dao = new EmaillistDao();
